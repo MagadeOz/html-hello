@@ -1,0 +1,58 @@
+body {
+	background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.feed-header {
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.feed-header h1 {
+    width: 550px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid transparent;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.post-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin: 0;
+}
+.post-image img{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.post-text {
+    padding: 10px;
+    font-size: 0.9rem;
+}
